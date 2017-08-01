@@ -25,6 +25,6 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
   `jlink --module-path %JAVA_HOME%/jmods;./mods --add-modules com.standalone.jshell --output ./target --compress 2`
   
-  If successful, the binaries can be found in \<repository-path>/target.
+  If successful, the binaries can be found in \<repository-path>/target/bin.
   
 * Run \<repository-path>/target/bin/jshell.exe

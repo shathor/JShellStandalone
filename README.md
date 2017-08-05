@@ -5,7 +5,7 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 ## Download
 * Windows: [JShell jdk-9+180_windows](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip)
-* Linux: [JShell jdk-9+180_windows](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip)
+* Linux: [JShell jdk-9+180_linux](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip)
 
 ## Build
 

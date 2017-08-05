@@ -16,7 +16,12 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 * Set environment variable %JAVA_HOME% to the Java 9 installation directory:
 
   `set JAVA_HOME = C:\PROGRA~1\java\jdk-9`
+  
+* Add %JAVA_HOME% to the %PATH%, if it is not already:
+
+  `set PATH = "%PATH%;%JAVA_HOME%"`
 * Open the command line
+* Check if Java 9 is accessible with `java -version`
 * Change directory to \<repository-path>
 * Compile the project to \<repository-path>/mods/com.standalone.jshell:
 
@@ -39,7 +44,7 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 * Install [Java JDK 9](http://jdk.java.net/9/), for apt-get early access see this [link](https://helpfromviraj.wordpress.com/2015/08/04/install-oracle-java-9-in-ubuntu-or-linux-jdk-9/)
 * Set Java 9 to default, check with `java -version`
 * In the terminal, change directory to \<repository-path>
-* Compile the project to \<repository-path>\mods\com.standalone.jshell:
+* Compile the project to \<repository-path>/mods/com.standalone.jshell:
 
   `javac -d ./mods/com.standalone.jshell ./src/com.standalone.jshell/module-info.java ./src/com.standalone.jshell/com/standalone/jshell/JShellStandalone.java`
   

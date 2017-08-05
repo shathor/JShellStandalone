@@ -4,8 +4,8 @@ JShell Standalone: Anything needed to run JShell independently is contained. The
 Caveat: The default JShell editor is not available. An editor can be set in JShell e.g. with `/set editor C:/Program Files (x86)/Notepad++/notepad++.exe`
 
 ## Download
-* Windows: [JShell jdk-9+180_windows](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip)
-* Linux: [JShell jdk-9+180_linux](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip)
+* Windows: [JShell jdk-9+180_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip) (23 MB)
+* Linux: [JShell jdk-9+180_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip) (25.4 MB)
 
 ## Build
 

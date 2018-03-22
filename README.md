@@ -1,27 +1,30 @@
 # JShell Standalone
-JShell Standalone: Anything needed to run JShell independently is contained. The Java 9 runtime is included and compressed using the jlink tool.
+JShell Standalone: Anything needed to run JShell independently is contained. The Java runtime is included and compressed using the jlink tool.
+Note that the startup time of JShell 10 was significantly improved.
 
 Caveat: The default JShell editor is not available. An editor can be set in JShell e.g. with `/set editor C:/Program Files (x86)/Notepad++/notepad++.exe`
 
 ## Download
-* Windows: [JShell jdk-9+180_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip) (23 MB)
-* Linux: [JShell jdk-9+180_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip) (25.4 MB)
+* JShell 10 Windows: [JShell jdk-10+46_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk10%2B46_windows.zip) (23.6 MB)
+* JShell   9 Windows: [JShell jdk-9+180_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip) (23.0 MB)
+* JShell 10 Linux: [JShell jdk-10+46_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk10%2B46_linux.zip) (26.2 MB)
+* JShell   9 Linux: [JShell jdk-9+180_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip) (25.4 MB)
 
 ## Build
 
 ### Windows
 
 * Checkout this repository. That directory will be referenced as \<repository-path>
-* Install [Java JDK 9](http://jdk.java.net/9/)
-* Set environment variable %JAVA_HOME% to the Java 9 installation directory:
+* Install [Java JDK 9 or higher](http://jdk.java.net/)
+* Set environment variable %JAVA_HOME% to the Java installation directory. Replace <version> with the installed version:
 
-  `set JAVA_HOME = C:\PROGRA~1\java\jdk-9`
+  `set JAVA_HOME = C:\PROGRA~1\java\jdk-<version>`
   
 * Add %JAVA_HOME% to the %PATH%, if it is not already:
 
   `set PATH = "%PATH%;%JAVA_HOME%"`
 * Open the command line
-* Check if Java 9 is accessible with `java -version`
+* Check if Java is accessible with `java -version`
 * Change directory to \<repository-path>
 * Compile the project to \<repository-path>/mods/com.standalone.jshell:
 
@@ -30,9 +33,9 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
   If successful, the compiled files can be found in \<repository-path>/mods.
   JShellStandalone.java is only used to have something to compile.
   More importantly the module-info.java contains dependencies on "jdk.zipfs" and jdk.jshell".
-* Bundle the Java 9 runtime (**semicolon** as path separator):
+* Bundle the Java runtime (**semicolon** as path separator):
 
-  `jlink --module-path %JAVA_HOME%/jmods;./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug --vm minimal --exclude-files *.diz --no-header-files --no-man-pages`
+  `jlink --module-path "%JAVA_HOME%/jmods;./mods" --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug -exclude-files *.diz --no-header-files --no-man-pages`
   
   If successful, the binaries can be found in \<repository-path>/target/bin.
   
@@ -41,8 +44,8 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 ### Linux
 
 * Checkout this repository. That directory will be referenced as \<repository-path>
-* Install [Java JDK 9](http://jdk.java.net/9/), for apt-get early access see this [link](https://helpfromviraj.wordpress.com/2015/08/04/install-oracle-java-9-in-ubuntu-or-linux-jdk-9/)
-* Set Java 9 to default, check with `java -version`
+* Install [Java 9 or higher](http://jdk.java.net/). E.g. [How to manually install Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/#manually).
+* Set the installed Java to default, check with `java -version`
 * In the terminal, change directory to \<repository-path>
 * Compile the project to \<repository-path>/mods/com.standalone.jshell:
 
@@ -51,9 +54,9 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
   If successful, the compiled files can be found in \<repository-path>/mods.
   JShellStandalone.java is only used to have something to compile.
   More importantly the module-info.java contains dependencies on "jdk.zipfs" and jdk.jshell".
-* Bundle the Java 9 runtime (**colon** as path separator):
+* Bundle the Java runtime (**colon** as path separator):
 
-  `jlink --module-path /usr/lib/jvm/java-9-oracle/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug --vm minimal --exclude-files *.diz --no-header-files --no-man-pages`
+  `jlink --module-path $JAVA_HOME/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug --exclude-files *.diz --no-header-files --no-man-pages`
   
   If successful, the binaries can be found in \<repository-path>/target/bin.
   

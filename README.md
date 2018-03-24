@@ -1,5 +1,9 @@
 # JShell Standalone
-JShell Standalone: Anything needed to run JShell independently is contained. The Java runtime is included and compressed using the jlink tool.
+Provides a standalone version of the JShell REPL. Anything needed to run JShell independently is contained, so there is no need to install the full JDK. A minimal Java runtime is embedded and compressed using the jlink tool.
+
+This minimal version consists only of the modules necessary to run JShell: "java.base", "jdk.zipfs" and "jdk.jshell".
+However the user can manually provide any JDK or custom module on startup with `--add-module`.
+
 Note that the startup time of JShell 10 was significantly improved.
 
 Caveat: The default JShell editor is not available. An editor can be set in JShell e.g. with `/set editor C:/Program Files (x86)/Notepad++/notepad++.exe`

@@ -5,10 +5,19 @@ Note that the startup time of JShell 10 was significantly improved.
 Caveat: The default JShell editor is not available. An editor can be set in JShell e.g. with `/set editor C:/Program Files (x86)/Notepad++/notepad++.exe`
 
 ## Download
-* JShell 10 Windows: [JShell jdk-10+46_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk10%2B46_windows.zip) (23.6 MB)
-* JShell   9 Windows: [JShell jdk-9+180_windows.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_windows.zip) (23.0 MB)
-* JShell 10 Linux: [JShell jdk-10+46_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk10%2B46_linux.zip) (26.2 MB)
-* JShell   9 Linux: [JShell jdk-9+180_linux.zip](https://github.com/sgwerder/JShellStandalone/raw/master/release/JShell_jdk9%2B180_linux.zip) (25.4 MB)
+
+### JDK 10+46
+
+| OS | Size | Download Link |
+| - | - | - |
+| Windows | 23.6 MB | [JShell_jdk-10.46_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_windows.zip) |
+| Linux | 26.2 MB | [JShell_jdk-10.46_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_linux.zip) |
+### JDK 9+180
+
+| OS | Size | Download Link |
+| - | - | - |
+| Windows | 23.0 MB | [JShell_jdk-9.180_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_windows.zip) |
+| Linux | 25.4 MB | [JShell_jdk-9.180_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_linux.zip) |
 
 ## Build
 

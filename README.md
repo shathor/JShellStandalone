@@ -10,6 +10,12 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 ## Download
 
+### JDK 11+28
+
+| OS | Size | Download Link |
+| - | - | - |
+| Windows | 24.3 MB | [JShell_jdk-11.28_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_windows.zip) |
+| Linux | 26.4 MB | [JShell_jdk-11.28_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_linux.zip) |
 ### JDK 10+46
 
 | OS | Size | Download Link |

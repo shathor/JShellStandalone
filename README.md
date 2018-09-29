@@ -13,19 +13,19 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 ### JDK 11+28
 
 | OS | Size | JDK | Download |
-| - | - | - |
+| - | - | - | - |
 | Windows | 24.3 MB | OpenJDK | [JShell_jdk-11.28_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_windows.zip) |
 | Linux | 26.4 MB | OpenJDK | [JShell_jdk-11.28_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_linux.zip) |
 ### JDK 10+46
 
 | OS | Size | JDK | Download |
-| - | - | - |
+| - | - | - | - |
 | Windows | 23.6 MB | OracleJDK | [JShell_jdk-10.46_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_windows.zip) |
 | Linux | 26.2 MB | OpenJDK | [JShell_jdk-10.46_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_linux.zip) |
 ### JDK 9+180
 
 | OS | Size | JDK | Download |
-| - | - | - |
+| - | - | - | - |
 | Windows | 23.0 MB | OracleJDK | [JShell_jdk-9.180_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_windows.zip) |
 | Linux | 25.4 MB | OpenJDK | [JShell_jdk-9.180_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_linux.zip) |
 

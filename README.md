@@ -10,6 +10,14 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 ## Download
 
+Note that the "General Availability" JDK releases are used and not the newest patch releases.
+
+### JDK 12+33
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 25.6 MB | OpenJDK | [JShell_jdk-12.33_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_windows.zip) |
+| Linux | 28.0 MB | OpenJDK | [JShell_jdk-12.33_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_linux.zip) |
 ### JDK 11+28
 
 | OS | Size | JDK | Download |

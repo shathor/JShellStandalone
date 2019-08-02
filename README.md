@@ -41,7 +41,7 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
   
 * Add %JAVA_HOME% to the %PATH%, if it is not already:
 
-  `set PATH = "%PATH%;%JAVA_HOME%"`
+  `set PATH = "%PATH%;%JAVA_HOME%\bin"`
 * Open the command line
 * Check if Java is accessible with `java -version`
 * Change directory to \<repository-path>

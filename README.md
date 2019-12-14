@@ -10,14 +10,20 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 ## Download
 
-Note that the "General Availability" JDK releases are used and not the newest patch releases.
+Note that the "General Availability" JDK releases are used and not always the newest patch releases.
 
+### JDK 13.0.1+9
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 25.7 MB | OpenJDK | [JShell_jdk-13.0.1.9_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_windows.zip) |
+| Linux | 28.0 MB | OpenJDK | [JShell_jdk-13.0.1.9_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_linux.zip) |
 ### JDK 12+33
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
 | Windows | 25.6 MB | OpenJDK | [JShell_jdk-12.33_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_windows.zip) |
-| Linux | 28.0 MB | OpenJDK | [JShell_jdk-12.33_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_linux.zip) |
+| Linux | 27.5 MB | OpenJDK | [JShell_jdk-12.33_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_linux.zip) |
 ### JDK 11+28
 
 | OS | Size | JDK | Download |
@@ -83,7 +89,7 @@ Note that the "General Availability" JDK releases are used and not the newest pa
   More importantly the module-info.java contains dependencies on "jdk.zipfs" and jdk.jshell".
 * Bundle the Java runtime (**colon** as path separator):
 
-  `jlink --module-path $JAVA_HOME/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug --no-header-files --no-man-pages`
+  `jlink --module-path $JAVA_HOME/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-java-debug-attributes --no-header-files --no-man-pages`
   
   If successful, the binaries can be found in \<repository-path>/target/bin.
   

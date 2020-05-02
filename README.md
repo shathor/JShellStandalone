@@ -12,6 +12,12 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 Note that the "General Availability" JDK releases are used and not always the newest patch releases.
 
+### JDK 14.0.1+7
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 29.5 MB | OpenJDK | [JShell_jdk-14.0.1.7_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_windows.zip) |
+| Linux | 27.6 MB | OpenJDK | [JShell_jdk-14.0.1.7_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_linux.zip) |
 ### JDK 13.0.1+9
 
 | OS | Size | JDK | Download |
@@ -77,6 +83,7 @@ Note that the "General Availability" JDK releases are used and not always the ne
 ### Linux
 
 * Checkout this repository. That directory will be referenced as \<repository-path>
+* binutils need to be installed for objcopy
 * Install [Java 9 or higher](http://jdk.java.net/). E.g. [How to manually install Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/#manually).
 * Set the installed Java to default, check with `java -version`
 * In the terminal, change directory to \<repository-path>

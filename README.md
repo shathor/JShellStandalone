@@ -12,42 +12,48 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 Note that the "General Availability" JDK releases are used and not always the newest patch releases.
 
+### JDK 15+36
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 26.1 MB | OpenJDK | [JShell_jdk15.36_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-15%2B36/JShell_jdk15.36_windows.zip) |
+| Linux | 28.0 MB | OpenJDK | [JShell_jdk15.36_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-15%2B36/JShell_jdk15.36_linux.zip) |
 ### JDK 14.0.1+7
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 29.5 MB | OpenJDK | [JShell_jdk-14.0.1.7_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_windows.zip) |
-| Linux | 27.6 MB | OpenJDK | [JShell_jdk-14.0.1.7_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_linux.zip) |
+| Windows | 29.5 MB | AdoptOpenJDK | [JShell_jdk14.0.1.7_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_windows.zip) |
+| Linux | 27.6 MB | AdoptOpenJDK | [JShell_jdk14.0.1.7_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-14.0.1%2B7/JShell_jdk14.0.1.7_linux.zip) |
 ### JDK 13.0.1+9
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 25.7 MB | OpenJDK | [JShell_jdk-13.0.1.9_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_windows.zip) |
-| Linux | 27.5 MB | OpenJDK | [JShell_jdk-13.0.1.9_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_linux.zip) |
+| Windows | 25.7 MB | AdoptOpenJDK | [JShell_jdk13.0.1.9_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_windows.zip) |
+| Linux | 27.5 MB | AdoptOpenJDK | [JShell_jdk13.0.1.9_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-13.0.1%2B9/JShell_jdk13.0.1.9_linux.zip) |
 ### JDK 12+33
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 25.6 MB | OpenJDK | [JShell_jdk-12.33_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_windows.zip) |
-| Linux | 28.0 MB | OpenJDK | [JShell_jdk-12.33_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_linux.zip) |
+| Windows | 25.6 MB | OpenJDK | [JShell_jdk12.33_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_windows.zip) |
+| Linux | 28.0 MB | OpenJDK | [JShell_jdk12.33_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-12%2B33/JShell_jdk12.33_linux.zip) |
 ### JDK 11+28
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 24.3 MB | OpenJDK | [JShell_jdk-11.28_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_windows.zip) |
-| Linux | 26.4 MB | OpenJDK | [JShell_jdk-11.28_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_linux.zip) |
+| Windows | 24.3 MB | OpenJDK | [JShell_jdk11.28_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_windows.zip) |
+| Linux | 26.4 MB | OpenJDK | [JShell_jdk11.28_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-11%2B28/JShell_jdk11.28_linux.zip) |
 ### JDK 10+46
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 23.6 MB | OracleJDK | [JShell_jdk-10.46_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_windows.zip) |
-| Linux | 26.2 MB | OpenJDK | [JShell_jdk-10.46_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_linux.zip) |
+| Windows | 23.6 MB | OracleJDK | [JShell_jdk10.46_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_windows.zip) |
+| Linux | 26.2 MB | OpenJDK | [JShell_jdk10.46_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-10%2B46/JShell_jdk10.46_linux.zip) |
 ### JDK 9+180
 
 | OS | Size | JDK | Download |
 | - | - | - | - |
-| Windows | 23.0 MB | OracleJDK | [JShell_jdk-9.180_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_windows.zip) |
-| Linux | 25.4 MB | OpenJDK | [JShell_jdk-9.180_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_linux.zip) |
+| Windows | 23.0 MB | OracleJDK | [JShell_jdk9.180_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_windows.zip) |
+| Linux | 25.4 MB | OpenJDK | [JShell_jdk9.180_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-9%2B180/JShell_jdk9.180_linux.zip) |
 
 ## Build
 

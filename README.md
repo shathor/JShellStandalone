@@ -12,6 +12,18 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 Note that the "General Availability" JDK releases are used and not always the newest patch releases.
 
+### JDK 17.0.1+12
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 27.2 MB | OpenJDK | [JShell_jdk17.0.1.12_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-17.0.1%2B12/JShell_jdk17.0.1.12_windows.zip) |
+| Linux | 28.7 MB | OpenJDK | [JShell_jdk17.0.1.12_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-17.0.1%2B12/JShell_jdk17.0.1.12_linux.zip) |
+### JDK 16.0.1+9
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 26.5 MB | OpenJDK | [JShell_jdk16.0.1.9_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-16.0.1%2B9/JShell_jdk16.0.1.9_windows.zip) |
+| Linux | 28.1 MB | OpenJDK | [JShell_jdk16.0.1.9_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-16.0.1%2B9/JShell_jdk16.0.1.9_linux.zip) |
 ### JDK 15+36
 
 | OS | Size | JDK | Download |

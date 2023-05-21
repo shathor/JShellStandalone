@@ -10,8 +10,26 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 ## Download
 
-Note that the "General Availability" JDK releases are used and not always the newest patch releases.
+Note that the mostly "General Availability" JDK (x64) releases are used and not always the newest patch releases.
 
+### JDK 20+36
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 29.3 MB | OpenJDK | [JShell_jdk20.36_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-20%2B36/JShell_jdk20.36_windows.zip) |
+| Linux | 30.9 MB | OpenJDK | [JShell_jdk20.36_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-20%2B36/JShell_jdk20.36_linux.zip) |
+### JDK 19.0.1+10
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 29.0 MB | OpenJDK | [JShell_jdk19.0.1.10_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-19.0.1%2B10/JShell_jdk19.0.1.10_windows.zip) |
+| Linux | 30.6 MB | OpenJDK | [JShell_jdk19.0.1.10_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-19.0.1%2B10/JShell_jdk19.0.1.10_linux.zip) |
+### JDK 18.0.2+9
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 27.8 MB | OpenJDK | [JShell_jdk18.0.2.9_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-18.0.2%2B9/JShell_jdk18.0.2.9_windows.zip) |
+| Linux | 29.3 MB | OpenJDK | [JShell_jdk18.0.2.9_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-18.0.2%2B9/JShell_jdk18.0.2.9_linux.zip) |
 ### JDK 17.0.1+12
 
 | OS | Size | JDK | Download |

@@ -110,7 +110,7 @@ Note that the mostly "General Availability" JDK (x64) releases are used and not 
   More importantly the module-info.java contains dependencies on "jdk.zipfs" and jdk.jshell".
 * Bundle the Java runtime (**semicolon** as path separator):
 
-  `jlink --module-path "%JAVA_HOME%/jmods;./mods" --add-modules com.standalone.jshell --output ./target --compress 2 --strip-debug --no-header-files --no-man-pages`
+  `jlink --module-path "%JAVA_HOME%/jmods;./mods" --add-modules com.standalone.jshell --output ./target --compress zip-9 --strip-debug --no-header-files --no-man-pages`
   
   If successful, the binaries can be found in \<repository-path>/target/bin.
   
@@ -132,7 +132,7 @@ Note that the mostly "General Availability" JDK (x64) releases are used and not 
   More importantly the module-info.java contains dependencies on "jdk.zipfs" and jdk.jshell".
 * Bundle the Java runtime (**colon** as path separator):
 
-  `jlink --module-path $JAVA_HOME/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress 2 --strip-java-debug-attributes --no-header-files --no-man-pages`
+  `jlink --module-path $JAVA_HOME/jmods:./mods --add-modules com.standalone.jshell --output ./target --compress zip-9 --strip-java-debug-attributes --no-header-files --no-man-pages`
   
   If successful, the binaries can be found in \<repository-path>/target/bin.
   

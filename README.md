@@ -12,6 +12,12 @@ Caveat: The default JShell editor is not available. An editor can be set in JShe
 
 Note that the mostly "General Availability" JDK (x64) releases are used and not always the newest patch releases.
 
+### JDK 21.0.1+12
+
+| OS | Size | JDK | Download |
+| - | - | - | - |
+| Windows | 32.2 MB | OpenJDK | [JShell_jdk21.0.1.12_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-21.0.1%2B12/JShell_jdk21.0.1.12_windows.zip) |
+| Linux | 34.1 MB | OpenJDK | [JShell_jdk21.0.1.12_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-21.0.1%2B12/JShell_jdk21.0.1.12_linux.zip) |
 ### JDK 20+36
 
 | OS | Size | JDK | Download |

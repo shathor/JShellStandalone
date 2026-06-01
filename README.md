@@ -14,6 +14,8 @@ Note that the mostly "General Availability" JDK (x64) releases are used and not 
 
 | JDK Version | OS | Size | JDK | Download |
 | - | - | - | - | - |
+| JDK 26.0.1+8 | Windows | 33.9 MB | OpenJDK | [JShell_jdk26.0.1.8_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-26.0.1%2B8/JShell_jdk26.0.1.8_windows.zip) |
+| JDK 26.0.1+8 | Linux | 35.6 MB | OpenJDK | [JShell_jdk26.0.1.8_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-26.0.1%2B8/JShell_jdk26.0.1.8_linux.zip) |
 | JDK 25.0.2+10 | Windows | 33.5 MB | OpenJDK | [JShell_jdk25.0.2.10_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-25.0.2%2B10/JShell_jdk25.0.2.10_windows.zip) |
 | JDK 25.0.2+10 | Linux | 35.3 MB | OpenJDK | [JShell_jdk25.0.2.10_linux.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-25.0.2%2B10/JShell_jdk25.0.2.10_linux.zip) |
 | JDK 24.0.2+12 | Windows | 33.0 MB | OpenJDK | [JShell_jdk24.0.2.12_windows.zip](https://github.com/shathor/JShellStandalone/releases/download/jdk-24.0.2%2B12/JShell_jdk24.0.2.12_windows.zip) |
